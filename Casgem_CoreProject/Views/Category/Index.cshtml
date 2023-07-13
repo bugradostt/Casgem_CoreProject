@@ -1,5 +1,51 @@
-﻿@{
+﻿@model List<PizzaPan.EntityLayer.Concrete.Category>
+
+@{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<a>Text</a>
+<h3>Kategori Listesi</h3>
+<hr />
+
+
+<a href="#" class="btn btn-success">Yeni Kategori</a>
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Kategori Adı</th>
+        <th>Kategori Ürünleri</th>
+        <th>Sitede Gör</th>
+        <th></th>
+        <th></th>
+
+
+    </tr>
+
+    @{ int a = 1;}
+    @foreach (var i in Model)
+    {
+        <tr>
+            <th>@a</th>
+            <td>@i.CategoryName</td>
+            <td>
+                <a href="#" class="btn btn-secondary">Kategori Ürünleri</a>
+            </td>
+
+            <td>
+                <a href="#" class="btn btn-secondary">Sitede Gör</a>
+            </td>
+
+            <td>
+                <a href="#" class="btn btn-danger">Sil</a>
+            </td>
+
+            <td>
+                <a href="#" class="btn btn-warning">Güncelle</a>
+            </td>
+
+        </tr>
+
+    }
+
+</table>
