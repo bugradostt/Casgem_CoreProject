@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casgem_CoreProject", "Casgem_CoreProject\Casgem_CoreProject.csproj", "{E9AB6777-7F9F-4701-ABB0-591E85D13E0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPan.PresentationLayer", "Casgem_CoreProject\PizzaPan.PresentationLayer.csproj", "{E9AB6777-7F9F-4701-ABB0-591E85D13E0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPan.EntityLayer", "PizzaPan.EntityLayer\PizzaPan.EntityLayer.csproj", "{62AFF44D-9423-46C3-8943-F2063BF2A2C3}"
 EndProject

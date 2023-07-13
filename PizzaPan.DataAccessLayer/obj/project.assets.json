@@ -1519,6 +1519,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "PizzaPan.EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/PizzaPan.EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaPan.EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -5787,6 +5801,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "PizzaPan.EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../PizzaPan.EntityLayer/PizzaPan.EntityLayer.csproj",
+      "msbuildProject": "../PizzaPan.EntityLayer/PizzaPan.EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5794,7 +5813,8 @@
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.17"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
+      "PizzaPan.EntityLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5823,7 +5843,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\PizzaPan.EntityLayer\\PizzaPan.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\PizzaPan.EntityLayer\\PizzaPan.EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
