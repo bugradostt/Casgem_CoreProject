@@ -4,6 +4,11 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PizzaPan.BusinessLayer.Abstract;
+using PizzaPan.BusinessLayer.Concrete;
+using PizzaPan.DataAccessLayer.Abstract;
+using PizzaPan.DataAccessLayer.Concrete;
+using PizzaPan.DataAccessLayer.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +28,9 @@ namespace Casgem_CoreProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<Context>();
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryDal, EfCategoryDal>();
             services.AddControllersWithViews();
         }
 
