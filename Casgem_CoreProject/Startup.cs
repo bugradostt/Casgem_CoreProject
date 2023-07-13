@@ -31,6 +31,10 @@ namespace Casgem_CoreProject
             services.AddDbContext<Context>();
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
+
+            services.AddScoped<IProdcutService, ProductManager>();
+            services.AddScoped<IProductDal, EfProductDal>();
+
             services.AddControllersWithViews();
         }
 

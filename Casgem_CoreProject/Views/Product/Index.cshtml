@@ -1,0 +1,60 @@
+﻿@model List<PizzaPan.EntityLayer.Concrete.Product>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Ürünler Listesi</h3>
+<hr />
+
+
+<a href="/Product/AddProduct/" class="btn btn-success">Yeni Kategori</a>
+<br />
+<br />
+
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Ürün Fotoğraf</th>
+        <th>Ürün Adı</th>
+        <th>Ürün Açıklama</th>
+        <th>Fiyat</th>
+        <th>Kategori</th>
+        <th></th>
+        <th></th>
+
+
+    </tr>
+
+    @{ int a = 1;}
+    @foreach (var i in Model)
+    {
+        <tr>
+            <th>@a</th>
+            <td>
+                <img src="@i.ProductImageUrl" width="100" />
+            </td>
+            <td>@i.ProductName</td>
+            <td>@i.ProductDescription</td>
+            <td>@i.ProductPrice ₺</td>
+
+            <td>
+               @i.Category
+            </td>
+
+            <td>
+                <a href="/Product/DeleteProduct/@i.ProductId" class="btn btn-danger">Sil</a>
+            </td>
+
+            <td>
+                <a href="/Product/EditProduct/@i.ProductId" class="btn btn-warning">Güncelle</a>
+            </td>
+
+        </tr>
+
+        a++;
+
+    }
+
+</table>

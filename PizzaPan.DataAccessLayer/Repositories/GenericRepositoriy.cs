@@ -19,7 +19,7 @@ namespace PizzaPan.DataAccessLayer.Repositories
 
         public T GetById(int id)
         {
-            return c.Set<T>().Find();
+            return c.Set<T>().Find(id);
         }
 
         public List<T> GetList()

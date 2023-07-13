@@ -38,5 +38,26 @@ namespace PizzaPan.PresentationLayer.Controllers
             _categoryService.TInsert(p);
             return RedirectToAction("Index");
         }
+
+        public IActionResult DeleteCategory(int id)
+        {
+            var foundId = _categoryService.TGetById(id);
+            _categoryService.TDelete(foundId);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult EditCategory(int id)
+        {
+            var foundId = _categoryService.TGetById(id);
+            return View(foundId);
+        }
+
+        [HttpPost]
+        public IActionResult EditCategory(Category p)
+        {
+            _categoryService.TUpdate(p);
+            return RedirectToAction("Index");
+        }
     }
 }
