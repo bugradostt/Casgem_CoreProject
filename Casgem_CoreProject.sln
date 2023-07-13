@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPan.EntityLayer", "Piz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPan.DataAccessLayer", "PizzaPan.DataAccessLayer\PizzaPan.DataAccessLayer.csproj", "{82DCDB48-573F-43E5-915A-6963E089CD97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPan.BusinessLayer", "PizzaPan.BusinessLayer\PizzaPan.BusinessLayer.csproj", "{FEDB2453-AF99-4AFD-B690-F5A4972DAF5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{82DCDB48-573F-43E5-915A-6963E089CD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82DCDB48-573F-43E5-915A-6963E089CD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82DCDB48-573F-43E5-915A-6963E089CD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDB2453-AF99-4AFD-B690-F5A4972DAF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDB2453-AF99-4AFD-B690-F5A4972DAF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDB2453-AF99-4AFD-B690-F5A4972DAF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDB2453-AF99-4AFD-B690-F5A4972DAF5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
