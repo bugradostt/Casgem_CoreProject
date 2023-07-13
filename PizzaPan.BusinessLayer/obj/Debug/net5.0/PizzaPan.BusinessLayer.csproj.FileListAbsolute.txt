@@ -1,0 +1,17 @@
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.BusinessLayer.deps.json
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.BusinessLayer.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\ref\PizzaPan.BusinessLayer.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.BusinessLayer.pdb
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.DataAccessLayer.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.EntityLayer.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.DataAccessLayer.pdb
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.EntityLayer.pdb
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.AssemblyInfo.cs
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.csproj.CopyComplete
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\ref\PizzaPan.BusinessLayer.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.pdb

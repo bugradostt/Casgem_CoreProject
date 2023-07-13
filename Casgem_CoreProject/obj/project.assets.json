@@ -1520,6 +1520,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "PizzaPan.BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PizzaPan.DataAccessLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PizzaPan.BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaPan.BusinessLayer.dll": {}
+        }
+      },
       "PizzaPan.DataAccessLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5817,6 +5830,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "PizzaPan.BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../PizzaPan.BusinessLayer/PizzaPan.BusinessLayer.csproj",
+      "msbuildProject": "../PizzaPan.BusinessLayer/PizzaPan.BusinessLayer.csproj"
+    },
     "PizzaPan.DataAccessLayer/1.0.0": {
       "type": "project",
       "path": "../PizzaPan.DataAccessLayer/PizzaPan.DataAccessLayer.csproj",
@@ -5834,6 +5852,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
+      "PizzaPan.BusinessLayer >= 1.0.0",
       "PizzaPan.DataAccessLayer >= 1.0.0"
     ]
   },
@@ -5864,6 +5883,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\PizzaPan.BusinessLayer\\PizzaPan.BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\PizzaPan.BusinessLayer\\PizzaPan.BusinessLayer.csproj"
+            },
             "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\PizzaPan.DataAccessLayer\\PizzaPan.DataAccessLayer.csproj": {
               "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\PizzaPan.DataAccessLayer\\PizzaPan.DataAccessLayer.csproj"
             }
