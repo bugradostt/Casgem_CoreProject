@@ -18,7 +18,7 @@ namespace PizzaPan.PresentationLayer.Controllers
         }
         public IActionResult Index()
         {
-            var values = _prodcutService.TGetList().OrderByDescending(x => x.ProductId).ToList();
+            var values = _prodcutService.TGetProductsWithCategory().OrderByDescending(x => x.ProductId).ToList();
             return View(values);
         }
 

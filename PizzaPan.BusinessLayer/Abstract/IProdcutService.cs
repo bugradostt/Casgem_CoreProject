@@ -9,5 +9,6 @@ namespace PizzaPan.BusinessLayer.Abstract
 {
    public interface IProdcutService : IGenericService<Product>
     {
+        public List<Product> TGetProductsWithCategory();
     }
 }

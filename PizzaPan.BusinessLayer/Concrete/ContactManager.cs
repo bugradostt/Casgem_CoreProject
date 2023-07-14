@@ -26,6 +26,11 @@ namespace PizzaPan.BusinessLayer.Concrete
             return _contactDal.GetById(id);
         }
 
+        public List<Contact> TGetContactBySubjectWithtThanks()
+        {
+            return _contactDal.GetContactBySubjectWithtThanks();
+        }
+
         public List<Contact> TGetList()
         {
             return _contactDal.GetList();
@@ -33,12 +38,12 @@ namespace PizzaPan.BusinessLayer.Concrete
 
         public void TInsert(Contact t)
         {
-            throw new NotImplementedException();
+            _contactDal.Insert(t);
         }
 
         public void TUpdate(Contact t)
         {
-            throw new NotImplementedException();
+            _contactDal.Update(t);
         }
     }
 }

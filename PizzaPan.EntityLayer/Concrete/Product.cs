@@ -15,6 +15,8 @@ namespace PizzaPan.EntityLayer.Concrete
         public decimal ProductPrice { get; set; }
         public Category Category{ get; set; }
 
+        public int CategoryId { get; set; }
+
 
     }
 }

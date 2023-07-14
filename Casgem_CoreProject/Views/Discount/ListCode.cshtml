@@ -1,0 +1,68 @@
+﻿@model List<Discount>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Kupon Listesi</h3>
+<hr />
+
+
+
+
+<a href="/Discount/CreateCode/" class="btn btn-success">Yeni Kupon</a>
+<br />
+<br />
+
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>İndirim Kuponu</th>
+        <th>Kuponun Bitiş Tarihi</th>
+        <th></th>
+        <th></th>
+        <th></th>
+
+
+    </tr>
+
+    @{ int a = 1;}
+    @foreach (var i in Model)
+    {
+<tr>
+    <th>@a</th>
+    <td>@i.DiscountCode</td>
+    @{
+        if (i.DiscountEndDate < Convert.ToDateTime(DateTime.Now.ToShortDateString()))
+        {
+            <td style="color:red">@i.DiscountEndDate.ToShortDateString()</td>
+
+        }
+        else
+        {
+            <td >@i.DiscountEndDate.ToShortDateString()</td>
+
+        }
+
+    }
+
+
+    <td>
+    </td>
+
+    <td>
+        <a href="/Discount/DeleteDiscount/" class="btn btn-danger">Sil</a>
+    </td>
+
+    <td>
+        <a href="/Category/EditCategory/" class="btn btn-warning">Güncelle</a>
+    </td>
+
+</tr>
+
+        a++;
+
+    }
+
+</table>

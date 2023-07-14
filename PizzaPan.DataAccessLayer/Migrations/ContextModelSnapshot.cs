@@ -61,6 +61,30 @@ namespace PizzaPan.DataAccessLayer.Migrations
                     b.ToTable("Contacts");
                 });
 
+            modelBuilder.Entity("PizzaPan.EntityLayer.Concrete.Discount", b =>
+                {
+                    b.Property<int>("DiscountId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("DiscountCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DiscountCount")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DiscountCreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DiscountEndDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("DiscountId");
+
+                    b.ToTable("Discounts");
+                });
+
             modelBuilder.Entity("PizzaPan.EntityLayer.Concrete.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -68,7 +92,7 @@ namespace PizzaPan.DataAccessLayer.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CategoryId")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("ProductDescription")
@@ -119,7 +143,9 @@ namespace PizzaPan.DataAccessLayer.Migrations
                 {
                     b.HasOne("PizzaPan.EntityLayer.Concrete.Category", "Category")
                         .WithMany("Products")
-                        .HasForeignKey("CategoryId");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Category");
                 });

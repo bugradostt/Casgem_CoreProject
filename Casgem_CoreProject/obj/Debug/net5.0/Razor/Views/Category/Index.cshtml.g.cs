@@ -26,8 +26,15 @@ using Casgem_CoreProject.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\Views\_ViewImports.cshtml"
+using PizzaPan.EntityLayer.Concrete;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7dccd51738e413aec4e7ac2a6df25a5dca911e27", @"/Views/Category/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3745e74e5d5c86af72f0cbff718debe98d8a39b2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c0d532226de3f34c36d5be83c261d57e94b1fba7", @"/Views/_ViewImports.cshtml")]
     public class Views_Category_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<PizzaPan.EntityLayer.Concrete.Category>>
     {
         #pragma warning disable 1998

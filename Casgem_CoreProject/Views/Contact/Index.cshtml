@@ -1,0 +1,51 @@
+﻿@model List<PizzaPan.EntityLayer.Concrete.Contact>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Mesaj Listesi</h3>
+<hr />
+
+
+
+
+
+<table class="table table-striped">
+    <tr>
+        <th>#</th>
+        <th>Gönderen Adı</th>
+        <th>Mail</th>
+        <th>Konu</th>
+        <th>Mesaj</th>
+        <th>Gönderim Tarihi</th>
+        <th></th>
+        <th></th>
+
+
+    </tr>
+
+    @{ int a = 1;}
+    @foreach (var i in Model)
+    {
+        <tr>
+            <th>@a</th>
+            <td>@i.ContactName</td>
+            <td>@i.ContactMail</td>
+            <td>@i.ContactSubject</td>
+            <td>@i.ContactMessage</td>
+            <td>@i.ContactSendDateMessage.ToShortDateString()</td>
+            <td>
+                <a href="/Contact/DeleteContact/@i.ContactId" class="btn btn-secondary">Mesajı Gör</a>
+            </td>
+             <td>
+                <a href="/Contact/DeleteContact/@i.ContactId" class="btn btn-danger">Sil</a>
+            </td>
+
+        </tr>
+
+        a++;
+
+    }
+
+</table>

@@ -29,11 +29,21 @@ namespace Casgem_CoreProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Context>();
+
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
 
+            services.AddScoped<IContactService, ContactManager>();
+            services.AddScoped<IContactDal, EfContactDal>();
+
             services.AddScoped<IProdcutService, ProductManager>();
             services.AddScoped<IProductDal, EfProductDal>();
+
+            services.AddScoped<ITestimonialService, TestimonialManager>();
+            services.AddScoped<ITestimonialDal, EfTestimonialDal>();
+
+            services.AddScoped<IDiscountService, DiscountManager>();
+            services.AddScoped<IDiscountDal, EfDiscountDal>();
 
             services.AddControllersWithViews();
         }

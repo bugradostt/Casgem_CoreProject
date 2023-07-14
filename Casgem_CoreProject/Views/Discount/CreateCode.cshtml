@@ -1,0 +1,20 @@
+﻿@model Discount
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Yeni İndirim Sayfası</h3>
+
+<form method="post">
+    <input type="text" class="form-control" asp-for="DiscountCode" value="@ViewBag.code" readonly />
+    <br />
+    <label>Kullanım Adedi</label>
+    <input type="text" class="form-control" asp-for="DiscountCount" />
+    <br />
+
+    <a class="btn btn-danger" href="/Discount/ListCode/">İptal</a>
+    <input type="submit" class="btn btn-success" value="Kupon Oluştur" />
+
+</form>
+
