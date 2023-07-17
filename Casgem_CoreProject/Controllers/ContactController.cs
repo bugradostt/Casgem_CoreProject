@@ -20,7 +20,7 @@ namespace PizzaPan.PresentationLayer.Controllers
             return View(values);
         }
 
-        public IActionResult DeleteProduct(int id)
+        public IActionResult DeleteContact(int id)
         {
             var foundId = _contactService.TGetById(id);
             _contactService.TDelete(foundId);

@@ -36,7 +36,7 @@
             <td>@i.ContactMessage</td>
             <td>@i.ContactSendDateMessage.ToShortDateString()</td>
             <td>
-                <a href="/Contact/DeleteContact/@i.ContactId" class="btn btn-secondary">Mesajı Gör</a>
+                <a href="/Contact/DetailsContact/@i.ContactId" class="btn btn-secondary">Mesajı Gör</a>
             </td>
             <td>
                 <a href="/Contact/DeleteContact/@i.ContactId" class="btn btn-danger">Sil</a>
@@ -49,3 +49,5 @@
     }
 
 </table>
+
+<a class="btn btn-danger" href="/Contact/Index/">Geri Dön</a>
