@@ -8,27 +8,27 @@
 
 <form method="post">
     <label>Kullanıcı Adı</label>
-    <input type="text" class="form-control" asp-for="UserName" />
+    <input type="text" required class="form-control" asp-for="UserName" />
     <br />
 
     <label>Adınız</label>
-    <input type="text" class="form-control" asp-for="Name" />
+    <input type="text" required class="form-control" asp-for="Name" />
     <br />
 
     <label>Soyadınız</label>
-    <input type="text" class="form-control" asp-for="Surname" />
+    <input type="text" required class="form-control" asp-for="Surname" />
     <br />
 
     <label>Şehir</label>
-    <input type="text" class="form-control" asp-for="City" />
+    <input type="text"  required class="form-control" asp-for="City" />
     <br />
 
     <label>Mail</label>
-    <input type="text" class="form-control" asp-for="Email" />
+    <input type="text" required class="form-control" asp-for="Email" />
     <br />
 
     <label>Şifreniz</label>
-    <input type="password" class="form-control" asp-for="Name" />
+    <input type="password" required class="form-control" asp-for="Password" />
     <br />
 
     <input type="submit" class="btn btn-warning" value="Bilgilerimi Güncelle" />

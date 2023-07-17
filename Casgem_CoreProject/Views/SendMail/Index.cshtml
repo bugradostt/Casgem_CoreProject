@@ -1,0 +1,26 @@
+﻿@model PizzaPan.PresentationLayer.Models.MailRequest
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Mail Gönderme Sayfası</h3>
+
+<form method="post">
+
+    <label>Alıcı Mail Adresi</label>
+    <input type="email" asp-for="ReceiverMail" class="form-control" />
+    <br />
+
+    <label>Konu</label>
+    <input type="text" asp-for="Subject" class="form-control" />
+    <br />
+
+    <label>Mesaj</label>
+    <textarea asp-for="MessageContent" class="form-control" rows="5"></textarea>
+    <br />
+
+    <input type="submit" value="Mail Gönder" class="btn btn-success"/>
+
+
+</form>
