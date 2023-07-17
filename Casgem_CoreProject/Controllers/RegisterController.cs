@@ -28,24 +28,54 @@ namespace PizzaPan.PresentationLayer.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(RegisterViewModel p)
         {
-            if(ModelState.IsValid)
+            //if(ModelState.IsValid)
+            //{
+            //    AppUser appUser = new AppUser()
+            //    {
+            //        Name = p.Name,
+            //        Surname = p.Surname,
+            //        Email = p.Mail,
+            //        UserName = p.UserName
+            //    };
+            //    await _userManager.CreateAsync(appUser, p.Password);
+            //    return RedirectToAction("Index", "Login");
+            //}
+            //else
+            //{
+            //    return View();
+            //}
+
+            AppUser appUser = new AppUser()
             {
-                AppUser appUser = new AppUser()
+                Name = p.Name,
+                Surname = p.Surname,
+                Email = p.Mail,
+                UserName = p.UserName
+            };
+            if (p.Password==p.ConfirmPassword )
+            {
+
+                var result= await _userManager.CreateAsync(appUser, p.Password);
+                if (result.Succeeded)
                 {
-                    Name = p.Name,
-                    Surname = p.Surname,
-                    Email = p.Mail,
-                    UserName = p.UserName
-                };
-                await _userManager.CreateAsync(appUser, p.Password);
-                return RedirectToAction("Index", "Login");
+                    return RedirectToAction("Index", "Login");
+                }
+                else
+                {
+                    foreach (var i in result.Errors)
+                    {
+                        ModelState.AddModelError("", i.Description);
+                    }
+                }
+
             }
             else
             {
-                return View();
+                ModelState.AddModelError("", "Şifreler Eşleşmiyor");
             }
 
-           
+            return View();
+
         }
     }
 }

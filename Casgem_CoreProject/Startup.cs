@@ -10,6 +10,7 @@ using PizzaPan.DataAccessLayer.Abstract;
 using PizzaPan.DataAccessLayer.Concrete;
 using PizzaPan.DataAccessLayer.EntityFramework;
 using PizzaPan.EntityLayer.Concrete;
+using PizzaPan.PresentationLayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,7 +47,7 @@ namespace Casgem_CoreProject
             services.AddScoped<IDiscountService, DiscountManager>();
             services.AddScoped<IDiscountDal, EfDiscountDal>();
 
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>();
 
             services.AddControllersWithViews();
         }
