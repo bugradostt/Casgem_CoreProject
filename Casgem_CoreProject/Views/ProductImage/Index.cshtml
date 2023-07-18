@@ -1,0 +1,13 @@
+﻿@model PizzaPan.PresentationLayer.Models.ImageFileViewModel
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data">
+
+    <label>Görsel Seçiniz</label>
+    <input type="file" class="form-control"  asp-for="Image"/>
+    <br />
+    <input type="submit" class="btn btn-success" value="Ekle" />
+
+</form>

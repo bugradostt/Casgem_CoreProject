@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IxDnDvl73VVwQV0LIj/JXn7aqghR2O+vWC99fvG1WrRTZ/aHtn1fuGBtaOPh4m911EL8+CXuYO8NIzSlMekt3w==",
+  "dgSpecHash": "h3KErC+/w7pKjK3oy8KVW3wvAxsnQFQuybKK8aMFaLFNHprvKOTxTISIcI1QHbmiv72bW8rZ9bxx67ztynclgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\PizzaPan.PresentationLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\bugra\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\bugra\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\bugra\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\bugra\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\bugra\\.nuget\\packages\\mailkit\\3.2.0\\mailkit.3.2.0.nupkg.sha512",
     "C:\\Users\\bugra\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

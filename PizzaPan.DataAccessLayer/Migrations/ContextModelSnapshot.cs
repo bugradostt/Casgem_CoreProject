@@ -166,6 +166,9 @@ namespace PizzaPan.DataAccessLayer.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("ConfirmCode")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -291,6 +294,39 @@ namespace PizzaPan.DataAccessLayer.Migrations
                     b.ToTable("Discounts");
                 });
 
+            modelBuilder.Entity("PizzaPan.EntityLayer.Concrete.OurTeam", b =>
+                {
+                    b.Property<int>("OurTeamId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("OurTeamFacebook")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OurTeamImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OurTeamName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("OurTeamStatus")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("OurTeamSurname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OurTeamTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OurTeamTwitter")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("OurTeamId");
+
+                    b.ToTable("OurTeams");
+                });
+
             modelBuilder.Entity("PizzaPan.EntityLayer.Concrete.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -318,6 +354,21 @@ namespace PizzaPan.DataAccessLayer.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("PizzaPan.EntityLayer.Concrete.ProductImage", b =>
+                {
+                    b.Property<int>("ProductImageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ProductImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ProductImageId");
+
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("PizzaPan.EntityLayer.Concrete.Testimonial", b =>

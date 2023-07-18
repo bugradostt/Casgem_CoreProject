@@ -1,0 +1,21 @@
+﻿@model PizzaPan.PresentationLayer.Models.ConfirmMailViewModel
+
+@{
+    Layout = null;
+}
+
+<h3>Mail Onay</h3>
+
+<hr />
+
+<form method="post">
+
+    <label>Mail</label>
+    <input type="text" asp-for="UserName"  class="form-control" value="@ViewBag.username" readonly />
+    <br />
+
+    <label>Doğrulama Kodu</label>
+    <input type="text" asp-for="ConfirmCode" class="form-control" />
+
+    <input type="submit" value="Kaydet" class="btn btn-success" />
+</form>

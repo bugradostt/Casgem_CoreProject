@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ttttga/Rii6ujo363cg6b5M8p1nmyqa1EPHfVklh6zYzKypgVEVVILZhNRlvuPe5le87O+hwvruZYCWI223LBw==",
+  "dgSpecHash": "0dvCivE0kTimRenmp19p5ujqHG9QRZa7A1KPlZOu1ilhj7jGdP5tCb+82TyU6EP/QL19HoccGaO7i7GmI+YdKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\PizzaPan.BusinessLayer\\PizzaPan.BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\bugra\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\bugra\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\bugra\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\bugra\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\bugra\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\bugra\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
