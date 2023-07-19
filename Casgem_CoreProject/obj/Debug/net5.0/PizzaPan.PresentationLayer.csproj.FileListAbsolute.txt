@@ -5,7 +5,6 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_Core
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\bin\Debug\net5.0\PizzaPan.PresentationLayer.runtimeconfig.json
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\bin\Debug\net5.0\PizzaPan.PresentationLayer.runtimeconfig.dev.json
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\bin\Debug\net5.0\PizzaPan.PresentationLayer.dll
-C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\bin\Debug\net5.0\ref\PizzaPan.PresentationLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\bin\Debug\net5.0\PizzaPan.PresentationLayer.pdb
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\bin\Debug\net5.0\PizzaPan.PresentationLayer.Views.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\bin\Debug\net5.0\PizzaPan.PresentationLayer.Views.pdb
@@ -54,7 +53,6 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_Core
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\PizzaPan.PresentationLayer.RazorAssemblyInfo.cache
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\PizzaPan.PresentationLayer.RazorAssemblyInfo.cs
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\PizzaPan.PresentationLayer.StaticWebAssets.Manifest.cache
-C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\PizzaPan.PresentationLayer.StaticWebAssets.xml
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\scopedcss\bundle\PizzaPan.PresentationLayer.styles.css
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\PizzaPan.PresentationLayer.TagHelpers.input.cache
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\PizzaPan.PresentationLayer.TagHelpers.output.cache
@@ -189,3 +187,9 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_Core
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\PizzaPan.PresentationLayer.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\Razor\Views\OurTeam\AddOurTeam.cshtml.g.cs
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\PizzaPan.PresentationLayer.StaticWebAssets.Pack.cache
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\msbuild.PizzaPan.PresentationLayer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\msbuild.build.PizzaPan.PresentationLayer.props
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.PizzaPan.PresentationLayer.props
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.PizzaPan.PresentationLayer.props
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\refint\PizzaPan.PresentationLayer.dll

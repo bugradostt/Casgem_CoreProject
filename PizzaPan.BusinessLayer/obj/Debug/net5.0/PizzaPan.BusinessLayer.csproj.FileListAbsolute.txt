@@ -1,6 +1,5 @@
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.BusinessLayer.deps.json
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.BusinessLayer.dll
-C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\ref\PizzaPan.BusinessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.BusinessLayer.pdb
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.DataAccessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\bin\Debug\net5.0\PizzaPan.EntityLayer.dll
@@ -15,3 +14,4 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.Bu
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\ref\PizzaPan.BusinessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\PizzaPan.BusinessLayer.pdb
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.BusinessLayer\obj\Debug\net5.0\refint\PizzaPan.BusinessLayer.dll

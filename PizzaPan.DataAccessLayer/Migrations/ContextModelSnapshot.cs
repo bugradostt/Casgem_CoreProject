@@ -120,6 +120,33 @@ namespace PizzaPan.DataAccessLayer.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("PizzaPan.EntityLayer.Concrete.About", b =>
+                {
+                    b.Property<int>("AboutId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AboutDes")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AboutImg1")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AboutImg2")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AboutTitle")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AboutVideo")
+                        .HasColumnType("int");
+
+                    b.HasKey("AboutId");
+
+                    b.ToTable("Abouts");
+                });
+
             modelBuilder.Entity("PizzaPan.EntityLayer.Concrete.AppRole", b =>
                 {
                     b.Property<int>("Id")

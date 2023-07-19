@@ -2,7 +2,6 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.En
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\bin\Debug\net5.0\PizzaPan.EntityLayer.runtimeconfig.json
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\bin\Debug\net5.0\PizzaPan.EntityLayer.runtimeconfig.dev.json
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\bin\Debug\net5.0\PizzaPan.EntityLayer.dll
-C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\bin\Debug\net5.0\ref\PizzaPan.EntityLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\bin\Debug\net5.0\PizzaPan.EntityLayer.pdb
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\obj\Debug\net5.0\PizzaPan.EntityLayer.csproj.AssemblyReference.cache
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\obj\Debug\net5.0\PizzaPan.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.En
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\obj\Debug\net5.0\ref\PizzaPan.EntityLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\obj\Debug\net5.0\PizzaPan.EntityLayer.pdb
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\obj\Debug\net5.0\PizzaPan.EntityLayer.genruntimeconfig.cache
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\PizzaPan.EntityLayer\obj\Debug\net5.0\refint\PizzaPan.EntityLayer.dll
