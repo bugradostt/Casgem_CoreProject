@@ -11,10 +11,10 @@ namespace PizzaPan.EntityLayer.Concrete
     {
         [Key]
         public int AboutId  { get; set; }
-        public int AboutImg1 { get; set; }
-        public int AboutImg2 { get; set; }
-        public int AboutTitle { get; set; }
-        public int AboutDes { get; set; }
-        public int AboutVideo { get; set; }
+        public string AboutImg1 { get; set; }
+        public string AboutImg2 { get; set; }
+        public string AboutTitle { get; set; }
+        public string AboutDes { get; set; }
+        public string AboutVideo { get; set; }
     }
 }
