@@ -193,3 +193,4 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_Core
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.PizzaPan.PresentationLayer.props
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.PizzaPan.PresentationLayer.props
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\refint\PizzaPan.PresentationLayer.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\Razor\Views\About\Index.cshtml.g.cs
