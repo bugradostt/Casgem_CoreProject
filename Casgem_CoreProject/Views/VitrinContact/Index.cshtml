@@ -1,0 +1,275 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+
+<!doctype html>
+<html lang="tr">
+
+@await Component.InvokeAsync("_HeadPartial")
+    <!--header-->
+    @await Component.InvokeAsync("_NavbarPartial")
+    <!--/header-->
+
+<body>
+
+    <section class="w3l-breadcrumb">
+        <div class="container">
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="/Default/Index/">Anasayfa</a></li>
+                <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> İletişim</li>
+            </ul>
+        </div>
+    </section>
+    <section class="w3l-contact-11 py-5">
+        <div class="contacts-main py-lg-5 py-md-4">
+            <div class="contant11-top-bg">
+                <div class="container">
+                    <div class="title-content text-center">
+                        <h6 class="sub-title">Budotekno</h6>
+                        <h3 class="title-big">Bizimle iletişime geçin</h3>
+                    </div>
+                    <div class="d-grid contact section-gap mt-lg-5 mt-4">
+                        <div class="contact-info-left d-grid text-center">
+                            <div class="contact-info">
+                                <span class="fa fa-map-marker" aria-hidden="true"></span>
+                                <h4>Adres</h4>
+                                <p>New York, NY-90814 Hill Station 4th Street</p>
+                            </div>
+                            <div class="contact-info">
+                                <span class="fa fa-phone" aria-hidden="true"></span>
+                                <h4>Telefon</h4>
+                                <p><a href="tel:+1-2345-678-11">+1-2345-678-11</a></p>
+                                <p><a href="mailto:pizza@order.com" class="email">pizza@order.com</a></p>
+                            </div>
+                            <div class="contact-info">
+                                <span class="fa fa-clock-o" aria-hidden="true"></span>
+                                <h4>Mail</h4>
+                                <p>Monday - Friday</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-41-mian section-gap mt-5">
+                <div class="container">
+                    <div class="d-grid align-form-map">
+                        <div class="form-inner-cont">
+                            <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
+                                <div class="form-input">
+                                    <label for="w3lName">Ad</label>
+                                    <input type="text" name="w3lName" id="w3lName" placeholder="Adınız" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="w3lSender">Mail</label>
+                                    <input type="email" name="w3lSender" id="w3lSender" placeholder="Mail adresiniz" required="" />
+                                </div>
+
+                                <div class="form-input">
+                                    <label for="w3lSender">Konu</label>
+                                    <input type="email" name="w3lSender" id="w3lSender" placeholder="Konu" required="" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="w3lMessage">Mesaj</label>
+                                    <textarea placeholder="Mesajınız" name="w3lMessage" id="w3lMessage" required=""></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-style btn-primary">Gönder</button>
+
+                            </form>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001161.424489281!2d-78.01909140705047!3d42.72866436845163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sin!4v1570786994395!5m2!1sen!2sin"
+                                    frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+   
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        &#10548;
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- /move top -->
+    @await Component.InvokeAsync("_FooterPartial")
+
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="~/Templates/Vitrin/assets/js/jquery-3.3.1.min.js"></script>
+
+    <!-- libhtbox -->
+    <script src="~/Templates/Vitrin/assets/js/lightbox-plus-jquery.min.js"></script>
+
+
+    <script src="~/Templates/Vitrin/assets/js/jquery.magnific-popup.min.js"></script>
+
+    <script src="~/Templates/Vitrin/assets/js/counter.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+    </script>
+
+    <!-- testimonials owlcarousel -->
+    <script src="~/Templates/Vitrin/assets/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-two').owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                responsiveClass: true,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    480: {
+                        items: 1,
+                        nav: false
+                    },
+                    667: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for Testimonials-->
+    <!-- script for food-->
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    480: {
+                        items: 2,
+                        nav: true,
+                        margin: 20
+                    },
+                    769: {
+                        items: 3,
+                        nav: true,
+                        margin: 20
+                    },
+                    1280: {
+                        items: 4,
+                        nav: true,
+                        loop: true,
+                        margin: 25
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for food-->
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+    <!--/MENU-JS-->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!--//MENU-JS-->
+    <script src="~/Templates/Vitrin/assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

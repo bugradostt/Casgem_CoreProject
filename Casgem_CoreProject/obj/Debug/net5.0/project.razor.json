@@ -17785,6 +17785,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\VitrinContact\\Index.cshtml",
+      "TargetPath": "Views\\VitrinContact\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
