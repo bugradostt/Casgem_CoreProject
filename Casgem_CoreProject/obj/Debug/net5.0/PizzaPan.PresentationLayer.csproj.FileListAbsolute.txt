@@ -195,3 +195,6 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_Core
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\refint\PizzaPan.PresentationLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\Razor\Views\About\Index.cshtml.g.cs
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\_FooterPartial\Default.cshtml.g.cs
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\Razor\Views\AdminAbout\Index.cshtml.g.cs
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\Razor\Views\OurTeam\ListOurTeam.cshtml.g.cs
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\casgem\Casgem_CoreProject\Casgem_CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\_TeamPartial\Default.cshtml.g.cs

@@ -49,5 +49,11 @@ namespace PizzaPan.PresentationLayer.Controllers
             }
             return View();
         }
+
+        public PartialViewResult ListOurTeam()
+        {
+            var values = _ourTeamService.TGetList();
+            return PartialView(values);
+        }
     }
 }
