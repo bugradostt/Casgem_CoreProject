@@ -4,9 +4,11 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h3>Yorum Listesi</h3>
+<h3>Referans Listesi</h3>
 <hr />
 
+
+<a href="/Testimonial/AddTestimonial/" class="btn btn-success">Ekle</a>
 
 
 
@@ -17,6 +19,7 @@
         <th>Title</th>
         <th>Adı</th>
         <th>Yorum</th>
+        <th></th>
         <th></th>
 
 
@@ -35,6 +38,9 @@
             <td>@i.Comment </td>
             <td>
                 <a href="/Testimonial/DeleteTestimonial/@i.TestimonialId" class="btn btn-danger">Sil</a>
+            </td>
+            <td>
+                <a href="/Testimonial/EditTestimonial/@i.TestimonialId" class="btn btn-warning">Güncelle</a>
             </td>
 
         </tr>

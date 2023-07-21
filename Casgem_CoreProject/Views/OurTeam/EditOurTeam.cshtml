@@ -1,0 +1,33 @@
+﻿@model PizzaPan.EntityLayer.Concrete.OurTeam
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Yeni Takım Üyesi</h3>
+<form method="post">
+
+    <input type="hidden" asp-for="OurTeamId" class="form-control" />
+
+    <label>Adınız</label>
+    <input type="text" asp-for="OurTeamName" class="form-control" />
+    <span asp-validation-for="OurTeamName" class="text-danger"></span>
+    <br />
+
+    <label>Soyadınız</label>
+    <input type="text" asp-for="OurTeamSurname" class="form-control" />
+    <span asp-validation-for="OurTeamSurname" class="text-danger"></span>
+    <br />
+
+    <label>Başlık</label>
+    <input type="text" asp-for="OurTeamTitle" class="form-control" />
+    <span asp-validation-for="OurTeamTitle" class="text-danger"></span>
+    <br />
+
+    <label>Görsel</label>
+    <input type="text" asp-for="OurTeamImageUrl" class="form-control" />
+    <span asp-validation-for="OurTeamImageUrl" class="text-danger"></span>
+    <br />
+
+    <input type="submit" class="btn btn-warning" value="Güncelle" />
+
+</form>

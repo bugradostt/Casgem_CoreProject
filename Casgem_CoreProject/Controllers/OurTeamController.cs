@@ -37,7 +37,7 @@ namespace PizzaPan.PresentationLayer.Controllers
             {
 
                 _ourTeamService.TInsert(p);
-                return RedirectToAction("Index");
+                return RedirectToAction("ListOurTeam");
             }
             else
             {
@@ -55,5 +55,29 @@ namespace PizzaPan.PresentationLayer.Controllers
             var values = _ourTeamService.TGetList();
             return PartialView(values);
         }
+
+        public IActionResult DeleteOurTeam(int id)
+        {
+            var foundId = _ourTeamService.TGetById(id);
+            _ourTeamService.TDelete(foundId);
+            return RedirectToAction("ListOurTeam");
+        }
+
+
+        [HttpGet]
+        public IActionResult EditOurTeam(int id)
+        {
+            var foundId = _ourTeamService.TGetById(id);
+            return View(foundId);
+        }
+
+        [HttpPost]
+        public IActionResult EditOurTeam(OurTeam p)
+        {
+            _ourTeamService.TUpdate(p);
+            return RedirectToAction("ListOurTeam");
+           
+        }
+
     }
 }

@@ -17785,6 +17785,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\Testimonial\\EditTestimonial.cshtml",
+      "TargetPath": "Views\\Testimonial\\EditTestimonial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\VitrinContact\\Index.cshtml",
       "TargetPath": "Views\\VitrinContact\\Index.cshtml",
       "FileKind": "mvc"
@@ -17802,6 +17807,11 @@
     {
       "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\SendMail\\Index.cshtml",
       "TargetPath": "Views\\SendMail\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\OurTeam\\EditOurTeam.cshtml",
+      "TargetPath": "Views\\OurTeam\\EditOurTeam.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -17877,6 +17887,11 @@
     {
       "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\Contact\\Index.cshtml",
       "TargetPath": "Views\\Contact\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\Testimonial\\AddTestimonial.cshtml",
+      "TargetPath": "Views\\Testimonial\\AddTestimonial.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PizzaPan.BusinessLayer.Abstract;
+using PizzaPan.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,5 +28,36 @@ namespace PizzaPan.PresentationLayer.Controllers
             _testimonialService.TDelete(foundId);
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+
+        public IActionResult AddTestimonial()
+        {
+          
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddTestimonial(Testimonial p)
+        {
+            _testimonialService.TInsert(p);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+
+        public IActionResult EditTestimonial(int id)
+        {
+            var foundId = _testimonialService.TGetById(id);
+            return View(foundId);
+        }
+
+        [HttpPost]
+        public IActionResult EditTestimonial(Testimonial p)
+        {
+            _testimonialService.TUpdate(p);
+            return RedirectToAction("Index");
+        }
+
     }
 }
