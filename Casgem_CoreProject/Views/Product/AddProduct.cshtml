@@ -24,8 +24,11 @@
     </div>
 
     <div class="mt-3">
-        <label>Katagori</label>
-        <input type="text" asp-for="CategoryId" class="form-control" placeholder="Kategori" />
+       <label>Kategori</label>
+        <select asp-for="CategoryId" asp-items="@ViewBag.categoryList" class="form-control dropdown-toggle">
+            <option >Kategori Seçiniz</option>
+        </select>
+       
     </div>
 
     <div class="mt-3">

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using PizzaPan.BusinessLayer.Abstract;
 using PizzaPan.EntityLayer.Concrete;
 using System;
@@ -12,9 +13,11 @@ namespace PizzaPan.PresentationLayer.Controllers
     {
 
         readonly IProdcutService _prodcutService;
-        public ProductController(IProdcutService prodcutService)
+        readonly ICategoryService  _categoryService;
+        public ProductController(IProdcutService prodcutService, ICategoryService categoryService)
         {
             _prodcutService = prodcutService;
+            _categoryService = categoryService;
         }
         public IActionResult Index()
         {
@@ -33,6 +36,8 @@ namespace PizzaPan.PresentationLayer.Controllers
         [HttpGet]
         public IActionResult AddProduct()
         {
+            var values = _categoryService.TGetList();
+            ViewBag.categoryList = new SelectList(values,"CategoryId","CategoryName");
             return View();
         }
 
