@@ -1,0 +1,45 @@
+﻿@model List<PizzaPan.EntityLayer.Concrete.ContactInfo>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>İletişim</h3>
+<hr />
+
+<div>
+    @foreach (var i in Model)
+    {
+        <div class="mt-3">
+
+            <label>Telefon</label>
+            <input type="text" class="form-control" readonly value="@i.ContactInfoPhone" />
+
+
+        </div>
+
+       
+        <div class="mt-3">
+
+            <label>Mail</label>
+            <input type="text" class="form-control" readonly value="@i.ContactInfoMail" />
+
+        </div>
+
+        <div class="mt-3">
+
+            <label>Adres</label>
+            <input type="text" class="form-control" readonly value="@i.ContactInfoAdress" />
+
+        </div>
+
+        <div class="mt-3">
+
+            <label>Harita</label>
+            <iframe  src="@i.ContactInfoMaps" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    <a class="btn btn-warning" href="/AdminContact/EditContact/@i.ContactInfoId">Güncelle</a>
+    }
+
+
+</div>

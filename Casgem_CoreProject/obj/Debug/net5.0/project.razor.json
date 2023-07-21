@@ -17810,6 +17810,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\AdminAbout\\EditAbout.cshtml",
+      "TargetPath": "Views\\AdminAbout\\EditAbout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\Product\\EditProduct.cshtml",
       "TargetPath": "Views\\Product\\EditProduct.cshtml",
       "FileKind": "mvc"
@@ -17910,6 +17915,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\AdminContact\\EditContact.cshtml",
+      "TargetPath": "Views\\AdminContact\\EditContact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\Shared\\Components\\_ProductPartial\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\_ProductPartial\\Default.cshtml",
       "FileKind": "mvc"
@@ -17932,6 +17942,11 @@
     {
       "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\Discount\\CreateCode.cshtml",
       "TargetPath": "Views\\Discount\\CreateCode.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\casgem\\Casgem_CoreProject\\Casgem_CoreProject\\Views\\AdminContact\\Index.cshtml",
+      "TargetPath": "Views\\AdminContact\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

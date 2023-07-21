@@ -36,19 +36,23 @@
                             <div class="contact-info">
                                 <span class="fa fa-map-marker" aria-hidden="true"></span>
                                 <h4>Adres</h4>
-                                <p>New York, NY-90814 Hill Station 4th Street</p>
+                                <p>@ViewBag.ContactInfoAdress</p>
                             </div>
                             <div class="contact-info">
                                 <span class="fa fa-phone" aria-hidden="true"></span>
                                 <h4>Telefon</h4>
-                                <p><a href="tel:+1-2345-678-11">+1-2345-678-11</a></p>
-                                <p><a href="mailto:pizza@order.com" class="email">pizza@order.com</a></p>
+                                <p><a href="tel:+@ViewBag.ContactInfoPhone">@ViewBag.ContactInfoPhone</a></p>
                             </div>
                             <div class="contact-info">
                                 <span class="fa fa-clock-o" aria-hidden="true"></span>
                                 <h4>Mail</h4>
-                                <p>Monday - Friday</p>
+                                <p>@ViewBag.ContactInfoMail</p>
                             </div>
+
+                     
+                           
+                           
+                           
                         </div>
                     </div>
                 </div>
@@ -57,23 +61,23 @@
                 <div class="container">
                     <div class="d-grid align-form-map">
                         <div class="form-inner-cont">
-                            <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
+                            <form method="post" class="signin-form">
                                 <div class="form-input">
                                     <label for="w3lName">Ad</label>
-                                    <input type="text" name="w3lName" id="w3lName" placeholder="Adınız" />
+                                    <input type="text" name="ContactName" id="w3lName" placeholder="Adınız" />
                                 </div>
                                 <div class="form-input">
                                     <label for="w3lSender">Mail</label>
-                                    <input type="email" name="w3lSender" id="w3lSender" placeholder="Mail adresiniz" required="" />
+                                    <input type="email" name="ContactMail" id="w3lSender" placeholder="Mail adresiniz" required="" />
                                 </div>
 
                                 <div class="form-input">
                                     <label for="w3lSender">Konu</label>
-                                    <input type="email" name="w3lSender" id="w3lSender" placeholder="Konu" required="" />
+                                    <input type="text" name="ContactSubject" id="w3lSender" placeholder="Konu" required="" />
                                 </div>
                                 <div class="form-input">
                                     <label for="w3lMessage">Mesaj</label>
-                                    <textarea placeholder="Mesajınız" name="w3lMessage" id="w3lMessage" required=""></textarea>
+                                    <textarea placeholder="Mesajınız" name="ContactMessage" id="w3lMessage" required=""></textarea>
                                 </div>
 
                                 <button type="submit" class="btn btn-style btn-primary">Gönder</button>
@@ -81,7 +85,7 @@
                             </form>
                         </div>
                         <div class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001161.424489281!2d-78.01909140705047!3d42.72866436845163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sin!4v1570786994395!5m2!1sen!2sin"
+                            <iframe src="@ViewBag.ContactInfoMaps"
                                     frameborder="0" allowfullscreen=""></iframe>
                         </div>
                     </div>

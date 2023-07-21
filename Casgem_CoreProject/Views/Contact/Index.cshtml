@@ -24,7 +24,6 @@
         <th>Mesaj</th>
         <th>Gönderim Tarihi</th>
         <th></th>
-        <th></th>
 
 
     </tr>
@@ -39,9 +38,7 @@
             <td>@i.ContactSubject</td>
             <td>@i.ContactMessage</td>
             <td>@i.ContactSendDateMessage.ToShortDateString()</td>
-            <td>
-                <a href="/Contact/DeleteContact/@i.ContactId" class="btn btn-secondary">Mesajı Gör</a>
-            </td>
+          
             <td>
                 <a href="/Contact/DeleteContact/@i.ContactId" class="btn btn-danger">Sil</a>
             </td>

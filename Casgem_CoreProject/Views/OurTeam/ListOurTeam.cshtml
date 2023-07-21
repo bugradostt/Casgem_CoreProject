@@ -1,1 +1,47 @@
-﻿<a>Testt</a>
+﻿@model List<PizzaPan.EntityLayer.Concrete.OurTeam>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Takım Üye Listesi</h3>
+
+<table class="table table-striped">
+   
+
+    <tr>
+        <th>#</th>
+        <th>Görsel</th>
+        <th>Adınız</th>
+        <th>Soyadınız</th>
+        <th>Başlık</th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @{
+        int a = 1;
+    }
+    @foreach (var i in Model)
+    {
+        <tr>
+            <th>@a</th>
+            <td>
+                <img src="@i.OurTeamImageUrl" width="100" />
+            </td>
+            <td>
+                @i.OurTeamName
+            </td>
+            <td>@i.OurTeamSurname</td>
+            <td>@i.OurTeamTitle</td>
+            <td>
+                <a href="/OurTeam/DeleteOurTeam/@i.OurTeamId" class="btn btn-danger">Sil</a>
+            </td>
+            <td>
+                <a href="/OurTeam/DeleteOurTeam/@i.OurTeamId" class="btn btn-danger">Güncelle</a>
+
+            </td>
+        </tr>
+
+
+    }
+</table>

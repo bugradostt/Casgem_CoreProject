@@ -12,13 +12,15 @@
         <div class="mt-3">
 
             <label>Fotoğraf 1</label>
+            <br>
             <img src="@i.AboutImg1" width="150" />
 
         </div>
 
         <div class="mt-3">
-
+           
             <label>Fotoğraf 2</label>
+            <br>
             <img src="@i.AboutImg2" width="150" />
 
         </div>
@@ -26,15 +28,18 @@
         <div class="mt-3">
 
             <label>Başlık</label>
-           <input type="text" class="form-control" value="@i.AboutTitle" />
+           <input type="text" readonly class="form-control" value="@i.AboutTitle" />
 
         </div>
 
         <div class="mt-3">
 
-            <label>Açıklma</label>
-            <textarea class="form-control">@i.AboutDes</textarea>
+            <label>Açıklama</label>
+            <textarea class="form-control" rows="3" readonly>@i.AboutDes</textarea>
         </div>
+
+        <br />
+        <a href="/AdminAbout/EditAbout/@i.AboutId" class="btn btn-warning">Güncelle</a>
 
     }
  
